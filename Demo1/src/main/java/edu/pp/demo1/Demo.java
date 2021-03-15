@@ -3,13 +3,14 @@ package edu.pp.demo1;
 public class Demo {
 
     public static void main(String[] args) {
-        //Declaração de variáveis do tipo float (números reais)
-        float width, height, woodLength, glassArea;
         //constantes
         final float MAX_WIDTH = 5.0f;
         final float MIN_WIDTH = 0.5f;
         final float MAX_HEIGHT = 3.0f;
         final float MIN_HEIGHT = 0.75f;
+
+        //Declaração de variáveis do tipo float (números reais)
+        float width, height, woodLength, glassArea;
 
         //inicialização de variáveis
         if (args.length == 2) {
