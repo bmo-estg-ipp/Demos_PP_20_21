@@ -4,17 +4,17 @@ public class Demo {
 
     public static void main(String[] args) {
         //Declaração de variáveis do tipo double (números reais)
-        double width, height, woodLength, glassArea;
+        float width, height, woodLength, glassArea;
         //constantes
-        final double MAX_WIDTH = 5.0;
-        final double MIN_WIDTH = 0.5;
-        final double MAX_HEIGHT = 3.0;
-        final double MIN_HEIGHT = 0.75;
+        final float MAX_WIDTH = 5.0f;
+        final float MIN_WIDTH = 0.5f;
+        final float MAX_HEIGHT = 3.0f;
+        final float MIN_HEIGHT = 0.75f;
 
         //inicialização de variáveis
         if (args.length == 2) {
-            width = Double.parseDouble(args[0]);
-            height = Double.parseDouble(args[1]);
+            width = Float.parseFloat(args[0]);
+            height = Float.parseFloat(args[1]);
         } else {
             width = 2;
             height = 3;
@@ -45,7 +45,7 @@ public class Demo {
         }
 
         //Calcular a quantidade de madeira e área do vidro
-        woodLength = 2 * (width + height) * 3.25;
+        woodLength = 2 * (width + height) * 3.25f;
         glassArea = width * height;
 
         //Apresentação de resultados
