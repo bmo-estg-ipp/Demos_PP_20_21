@@ -3,7 +3,7 @@ package edu.pp.demo1;
 public class Demo {
 
     public static void main(String[] args) {
-        //Declaração de variáveis do tipo double (números reais)
+        //Declaração de variáveis do tipo float (números reais)
         float width, height, woodLength, glassArea;
         //constantes
         final float MAX_WIDTH = 5.0f;
